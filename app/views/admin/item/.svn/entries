@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="161"
+   name=""
+   committed-date="2007-03-07T07:26:01.743964Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/app/views/admin/item"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="135"
+   name="update.rjs"
+   text-time="2007-02-19T03:31:35.000000Z"
+   committed-date="2007-02-19T03:38:02.312500Z"
+   checksum="ddcaa3a633f3331e4e084562c1fa3588"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="156"
+   name="list.rhtml"
+   text-time="2007-03-03T20:18:43.000000Z"
+   committed-date="2007-03-03T20:26:55.443625Z"
+   checksum="1abc9ddabaef6645be2d7092bd1ab083"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="135"
+   name="create.rjs"
+   text-time="2007-02-19T03:34:22.000000Z"
+   committed-date="2007-02-19T03:38:02.312500Z"
+   checksum="58fa560e9f974d3fb7adaf622e7230cd"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="161"
+   name="local_search.rhtml"
+   text-time="2007-03-07T07:18:56.000000Z"
+   committed-date="2007-03-07T07:26:01.743964Z"
+   checksum="a385d75c8dda345c05389c3a72710eaf"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="135"
+   name="destroy.rjs"
+   text-time="2007-02-19T03:29:40.000000Z"
+   committed-date="2007-02-19T03:38:02.312500Z"
+   checksum="970417b4092c29fa73a9a8830f3d3f9d"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="138"
+   name="_form.rhtml"
+   text-time="2007-02-20T06:01:17.000000Z"
+   committed-date="2007-02-20T06:01:57.921875Z"
+   checksum="2aac0f0d4809f7d324f6d282213727c2"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="157"
+   name="create_from_search.rjs"
+   text-time="2007-03-03T21:10:37.000000Z"
+   committed-date="2007-03-04T23:19:57.943625Z"
+   checksum="1c36fad8c6ae2bbdb5a6c7088fa87606"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="156"
+   name="_item_row.rhtml"
+   text-time="2007-03-03T20:26:29.000000Z"
+   committed-date="2007-03-03T20:26:55.443625Z"
+   checksum="eb47be59c125b1dce069e4d08cca360f"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="122"
+   name="edit.rhtml"
+   text-time="2007-03-03T20:00:52.000000Z"
+   committed-date="2007-01-28T04:06:26.328125Z"
+   checksum="abe7531bd838dd4ec2539e5a2c7a4d08"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="135"
+   name="save.rjs"
+   text-time="2007-02-19T03:25:41.000000Z"
+   committed-date="2007-02-19T03:38:02.312500Z"
+   checksum="93db01689a8b419605cb3e021b6614d1"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="122"
+   name="new.rhtml"
+   text-time="2007-01-28T04:05:49.000000Z"
+   committed-date="2007-01-28T04:06:26.328125Z"
+   checksum="fc1b01ff80f2c7343fdb4a9d1d596f81"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

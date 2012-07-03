@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="58"
+   name=""
+   committed-date="2006-11-13T00:50:45.791375Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/test/unit"
+   last-author="chine"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="39"
+   name="user_test.rb"
+   text-time="2006-11-05T23:57:42.000000Z"
+   committed-date="2006-11-06T00:10:45.611375Z"
+   checksum="c921e6f009a5c6d683651a6fe7542840"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="command_test.rb"
+   text-time="2006-10-28T20:08:45.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="828aa9842d8e8bdac9f39ea07988b02d"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="state_test.rb"
+   text-time="2006-11-03T03:52:56.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="c1fc36df6852b91e1834a1443bd06f4a"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="keyword_test.rb"
+   text-time="2006-10-28T20:08:34.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="7a4431dfab5cd0c83361932a2a4583f0"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="address_test.rb"
+   text-time="2006-11-04T19:55:36.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="3f2375b90728b59424787194ec1fe9a7"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="zip_code_test.rb"
+   text-time="2006-10-28T20:08:20.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="36b686f3f615d49aba10a2026e4821de"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="41"
+   name="item_test.rb"
+   text-time="2006-11-06T04:01:45.000000Z"
+   committed-date="2006-11-06T03:20:04.392625Z"
+   checksum="9271424ab319a20d8c351fbf224dbe58"
+   last-author="chine"
+   kind="file"
+   prop-time="2006-11-06T04:01:45.000000Z"/>
+<entry
+   committed-rev="58"
+   name="segment_test.rb"
+   text-time="2006-11-14T15:13:55.000000Z"
+   committed-date="2006-11-13T00:50:45.791375Z"
+   checksum="2ff2f30d3fbd7aadc18158a3710667fd"
+   last-author="chine"
+   kind="file"
+   prop-time="2006-11-14T15:13:55.000000Z"/>
+<entry
+   committed-rev="33"
+   name="conversation_step_test.rb"
+   text-time="2006-10-28T20:08:59.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="665b40cf910b1c0b6656c34f629160bc"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="option_test.rb"
+   text-time="2006-10-28T20:09:02.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="e024af1b69932fc50ca1851611c223f9"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="city_test.rb"
+   text-time="2006-11-03T03:46:21.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="90f70f4e726646274465176812ac0aaf"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="conversation_test.rb"
+   text-time="2006-10-28T20:08:55.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="8fd6f1d2c323e7f57d4083ab028f568e"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="conversation_state_test.rb"
+   text-time="2006-10-28T20:08:52.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="7f26d4965ce1fe34f204b621947a20dd"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="step_test.rb"
+   text-time="2006-10-28T20:08:48.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="7a507524961c1c921ca152b06ba19e69"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="user_preference_test.rb"
+   text-time="2006-10-28T20:08:31.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="9da4a5ef7c2d1d0a999a38477d7903ba"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="vote_test.rb"
+   text-time="2006-10-28T20:08:41.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="68a392b20ab698757a7948d1ba18bad2"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

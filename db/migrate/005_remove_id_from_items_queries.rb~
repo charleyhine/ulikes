@@ -1,0 +1,8 @@
+class RemoveIdFromItemsQueries < ActiveRecord::Migration
+  def self.up
+    remove_column(:items_queries, :id)
+  end
+
+  def self.down
+  end
+end

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="157"
+   name=""
+   committed-date="2007-03-04T23:19:57.943625Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/app/controllers/admin"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="157"
+   name="item_controller.rb"
+   text-time="2007-03-04T23:18:08.000000Z"
+   committed-date="2007-03-04T23:19:57.943625Z"
+   checksum="85681a44b6b98dea50be282733203641"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

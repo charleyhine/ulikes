@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen">
+		<title>ulikes &mdash; mobile voting</title>
+		<script type="text/javascript" src="/javascripts/prototype.js"></script>
+		<script type="text/javascript" src="/javascripts/formSearch.js"></script>
+	</head>
+	<body id="bodyNormal">
+		<div id="divContainer">
+			<div id="divTitle">
+				<h1><a href="/">ulikes</a></h1>
+				<h2>mobile voting</h2>
+			</div>
+			<div id="divAbout">
+				<div id="divVote">
+					<h1>Vote for your favorite places...</h1>
+				</div>
+				<div id="divAnywhere">
+					<h1>from anywhere</h1>
+				</div>
+				<div id="divFind">
+					<h1>...and find out what everyone else likes too</h1>
+				</div>
+			</div>
+			<hr class="hidden" />
+			<div id="divJoin">
+				<div class="divPadding">
+<!-- ******************************************************************************************************* -->
+<!-- DIV REGISTER AN OBJECT********************************************************************************* -->
+                    
+                    
+                    <!--
+					<h2 class="h2Steps">Start with a keyword</h2>
+					<ul class="ulSteps">
+						<li><strong>Search</strong> in your area for a place you like, such as a restaurant, coffee shop, or bar...</li>
+					</ul>
+					-->
+					
+					<h2 class="h2Steps">How to vote</h2>
+					<ul class="ulSteps">
+						<li>When you see a uLikes banner in a place you like, send the <strong>keyword</strong> in a text message to <strong><em>vote@lkz.cc</em></strong></li>
+					</ul>
+					
+					<div class="divDetail">
+						(most phones can send to email addresses)
+					</div>
+					
+					<br />
+					<ul class="ulSteps">
+						<li>If one of your favorite places needs a keyword, simply <strong>search</strong> below to create one</li>
+					</ul>
+					
+					<hr>
+					
+					<h2 class="h2Steps">Search</h2>
+                    <ul class="ulSteps">
+						<li>in your area to see what others like the most...</li>
+					</ul>
+                    
+                    <form action="/item/lookup" method="post">
+						<input type="text" id="inputTextSplash1" name="query" value="search for a place" onFocus="formSearchFocus(this,'search for a place')" onBlur="formSearchBlur(this,'search for a place')"/>
+						<input type="text" id="inputTextSplash2" name="location" value="in this city, state" onFocus="formSearchFocus(this,'in this city, state')" onBlur="formSearchBlur(this,'in this city, state')"/>
+						<input type="submit" id="inputSubmitSplash" value="Go" />
+					</form>
+					
+					<div class="divDetail">
+						<h4>Examples:</h4>
+						<table>
+							<tr>
+								<td>restaurant</td>
+								<td>boulder, co</td>
+							</tr>
+							<tr>
+								<td>coffee</td>
+								<td>long beach, ca</td>
+							</tr>
+							<tr>
+								<td>lounge</td>
+								<td>astoria, ny</td>
+							</tr>
+						</table>
+					</div>         
+
+
+<!-- END DIV REGISTER AN OBJECT***************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+				</div>				
+			</div> 
+			
+			
+<!-- ******************************************************************************************************* -->
+<!-- START OF FOOTER**************************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+			<hr class="hidden" />
+			<div id="divFooter">
+<!-- ******************************************************************************************************* -->
+<!-- DIV FOOTER********************************************************************************************* -->
+
+				copyright &copy; 2007 www.ulikes.org
+
+<!-- END DIV FOOTER***************************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+			</div>
+		</div>
+	</body>       
+</html>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="231"
+   name=""
+   committed-date="2007-04-30T05:46:13.437250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="app"
+   kind="dir"/>
+<entry
+   name="log"
+   kind="dir"/>
+<entry
+   committed-rev="23"
+   name="Rakefile"
+   text-time="2006-10-27T02:43:54.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="17f2f134da4cd31ea095d5868ca89e86"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:51.000000Z"/>
+<entry
+   committed-rev="41"
+   name=".project"
+   text-time="2006-11-06T04:01:47.000000Z"
+   committed-date="2006-11-06T03:20:04.392625Z"
+   checksum="feca88aac34ded9ea19162b2253cb024"
+   last-author="chine"
+   kind="file"
+   prop-time="2006-11-06T04:01:47.000000Z"/>
+<entry
+   name="db"
+   kind="dir"/>
+<entry
+   name="components"
+   kind="dir"/>
+<entry
+   committed-rev="93"
+   name="pdftk.exe"
+   text-time="2006-12-06T03:32:06.000000Z"
+   committed-date="2006-12-04T06:56:49.761943Z"
+   checksum="0b661765beb53113e1a1aaf84b1b4ea0"
+   last-author="chine"
+   kind="file"
+   prop-time="2006-12-06T03:32:05.000000Z"/>
+<entry
+   committed-rev="23"
+   name="README"
+   text-time="2006-10-27T02:43:54.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="5e384456c0d1fd0b702cb5fe760a420a"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+<entry
+   name="vendor"
+   kind="dir"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   name="tmp"
+   kind="dir"/>
+<entry
+   committed-rev="170"
+   name="ulikes_keyword_template.pdf"
+   text-time="2007-03-27T02:59:45.000000Z"
+   committed-date="2007-03-26T03:06:44.485125Z"
+   checksum="06717d84df88197350e8f394942618dd"
+   last-author="chine"
+   kind="file"
+   prop-time="2007-03-27T02:59:44.000000Z"/>
+<entry
+   name="script"
+   kind="dir"/>
+<entry
+   name="config"
+   kind="dir"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="public"
+   kind="dir"/>
+</wc-entries>

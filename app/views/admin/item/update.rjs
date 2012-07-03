@@ -1,0 +1,24 @@
+if @result
+	page.Windows.closeAll() #close the popup window
+
+	#replace the row with the newly saved info
+	page.replace 'item_row_' + @item.id.to_s, :partial => 'item_row', :locals => {
+		:item => @item }
+
+	#highlight the updated row
+	page.visual_effect( :highlight, 'item_row_' + @item.id.to_s, :duration => 3 )
+
+else
+	logger.debug(error_messages_for(:keyword))
+	if !error_messages_for(:item).empty?
+		page.replace_html :error_messages, 
+				error_messages_for(:item)
+	elsif !error_messages_for(:keyword).empty?
+		page.replace_html :error_messages, 
+				error_messages_for(:keyword)
+	else
+		page.replace_html :error_messages, 'There was an error saving the item!'
+	end
+end
+
+

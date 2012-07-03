@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Item Admin</title>
+  <%= stylesheet_link_tag 'scaffold' %>
+	<%= stylesheet_link_tag 'default.css' %>
+	<%= javascript_include_tag :defaults %>
+	<%= javascript_include_tag 'window.js' %>
+</head>
+<body>
+
+<p style="color: green"><%= flash[:notice] %></p>
+
+<%= yield  %>
+
+</body>
+</html>

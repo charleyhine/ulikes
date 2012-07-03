@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="232"
+   name=""
+   committed-date="2007-05-03T02:49:26.275250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/doc/app/classes/MessageState"
+   last-author="jhollander"
+   kind="dir"
+   revision="232"/>
+<entry
+   committed-rev="232"
+   name="MessageStateEnum.html"
+   text-time="2007-05-03T02:31:24.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="4df92cfb03594731e21fbbd7839057e9"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

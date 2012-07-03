@@ -1,0 +1,3 @@
+class ItemStep < Step
+  belongs_to :vote
+end

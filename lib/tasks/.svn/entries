@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="231"
+   name=""
+   committed-date="2007-04-30T05:46:13.437250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/lib/tasks"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="email_processor.rake"
+   kind="file"
+   deleted="true"
+   revision="232"/>
+<entry
+   committed-rev="231"
+   name="annotations.rake"
+   text-time="2007-05-03T02:01:18.000000Z"
+   committed-date="2007-04-30T05:46:13.437250Z"
+   checksum="c2e2159f5be7ffdc5a7a99ca078182f3"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-05-03T02:01:18.000000Z"/>
+</wc-entries>

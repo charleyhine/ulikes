@@ -1,0 +1,8 @@
+<div id="new_item">
+	<div id="error_messages" style='color: black'></div>
+
+<%= form_remote_tag :url => { :action => "create" } %>
+  <%= render :partial => 'form' %>
+	<%= submit_tag "Save" %><%= button_to_function 'Cancel', 'Windows.closeAll()' %>
+<%= end_form_tag %>
+</div>

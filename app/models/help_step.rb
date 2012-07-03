@@ -1,0 +1,2 @@
+class HelpStep < Step
+end

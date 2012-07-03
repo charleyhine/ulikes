@@ -1,0 +1,10 @@
+if error_messages_for(:item).empty?
+	page.visual_effect :highlight, 'item_row_' + @item.id.to_s, :duration => 3
+#	page.replace_html :status_message, 
+	#	'Your changes were saved!'
+else
+	page.show :status_message
+	page.replace_html :status_message, 
+		error_messages_for(:item)
+	page.visual_effect :fade, :status_message, :duration => 3 
+end

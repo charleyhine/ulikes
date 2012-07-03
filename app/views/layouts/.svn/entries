@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="206"
+   name=""
+   committed-date="2007-04-02T05:29:00.872500Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/app/views/layouts"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="206"
+   name="global.rhtml"
+   text-time="2007-04-02T05:28:52.000000Z"
+   committed-date="2007-04-02T05:29:00.872500Z"
+   checksum="91d0674dd475337708fe587b7b8599e2"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   name="admin"
+   kind="dir"/>
+<entry
+   committed-rev="175"
+   name="index.rhtml"
+   text-time="2007-03-27T01:59:09.000000Z"
+   committed-date="2007-03-27T04:17:21.468750Z"
+   checksum="28ef5e4832608906d298635b5f154374"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

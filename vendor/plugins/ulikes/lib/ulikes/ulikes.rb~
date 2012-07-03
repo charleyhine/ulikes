@@ -1,0 +1,42 @@
+# ULikes Main library
+require 'logger'
+
+#make the logger print out the way we want it to
+class Logger
+	def format_message(severity, timestamp, progname, msg)
+		timestamp.strftime("%m/%d/%Y %X #{severity} [#{$$}]: #{msg}\n")
+	end
+end
+
+#make a gobal logger that we can use wherever we go that isn't part of the
+#Rails logging, but is inside of Rails
+#it's definitely a Hack but very usefull
+class LogHelper
+	@@log = Logger.new(STDOUT)
+
+	def LogHelper.logger=(logger)
+		@@log = logger
+	end
+
+	def LogHelper.logger
+		return @@log 
+	end
+end
+
+#define ULikes module methods here
+module ULikes
+
+	#define logging methods specifically for ulikes module
+	def log
+		return LogHelper.logger
+	end
+
+	def log_exception(e)
+		log.error("#{e.class}: #{e.message}")
+		log.error(e.backtrace.join("\n\t"))
+	end
+
+	def log_handle(handler, conversation)
+		log.debug("#{handler}.handle() for conversation: #{conversation.id}")
+	end
+end

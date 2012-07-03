@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="231"
+   name=""
+   committed-date="2007-04-30T05:46:13.437250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/lib"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="tasks"
+   kind="dir"/>
+</wc-entries>

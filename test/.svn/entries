@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="152"
+   name=""
+   committed-date="2007-02-28T05:27:16.834617Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/test"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="unit"
+   kind="dir"/>
+<entry
+   committed-rev="23"
+   name="test_helper.rb"
+   text-time="2006-10-27T02:43:50.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="fc4d849e28f089141debb18b22058277"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:50.000000Z"/>
+<entry
+   name="functional"
+   kind="dir"/>
+<entry
+   name="integration"
+   kind="dir"/>
+<entry
+   name="fixtures"
+   kind="dir"/>
+<entry
+   name="mocks"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,6 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  user_id: 1
+  send_vote_confirmation: t
+#another:
+#  id: 2

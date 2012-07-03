@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="228"
+   name=""
+   committed-date="2007-04-30T03:58:20.046625Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/app/models"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   prop-time="2007-04-15T21:12:02.000000Z"
+   revision="231"/>
+<entry
+   committed-rev="228"
+   name="vote.rb"
+   text-time="2007-05-03T02:01:17.000000Z"
+   committed-date="2007-04-30T03:58:20.046625Z"
+   checksum="cf9f260f4f7a3786f9707f24e2cb68de"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-05-03T02:01:17.000000Z"/>
+<entry
+   committed-rev="33"
+   name="command.rb"
+   text-time="2006-10-28T20:08:45.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="5be32f68cd4fe8c12723fee1d996646c"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="131"
+   name="user.rb"
+   text-time="2007-03-03T19:03:10.000000Z"
+   committed-date="2007-02-18T03:43:35.437500Z"
+   checksum="142c54475e770c793d21589d85c99147"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-11-20T04:34:18.000000Z"/>
+<entry
+   committed-rev="124"
+   name="keyword_step.rb"
+   text-time="2007-01-28T21:39:13.000000Z"
+   committed-date="2007-01-28T23:51:28.187500Z"
+   checksum="94ea8bb1406d7ef5660944841ef511ec"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="state.rb"
+   text-time="2006-10-28T20:08:13.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="90ec1bcd4a9b57a0b5150e57765bcf14"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="124"
+   name="help_step.rb"
+   text-time="2007-01-28T22:08:21.000000Z"
+   committed-date="2007-01-28T23:51:28.187500Z"
+   checksum="6a95aa324ed9350081bafb3c2e7c1419"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="228"
+   name="keyword.rb"
+   text-time="2007-05-03T02:01:17.000000Z"
+   committed-date="2007-04-30T03:58:20.046625Z"
+   checksum="9c161bddf24237e7dfa2bd066750cfdf"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-05-03T02:01:17.000000Z"/>
+<entry
+   committed-rev="225"
+   name="message.rb"
+   text-time="2007-04-29T22:09:07.000000Z"
+   committed-date="2007-04-29T22:16:13.702875Z"
+   checksum="b4fef07404ca0c34df67d64ebac2d761"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-11-20T04:34:18.000000Z"/>
+<entry
+   committed-rev="124"
+   name="error_step.rb"
+   text-time="2007-01-28T22:08:39.000000Z"
+   committed-date="2007-01-28T23:51:28.187500Z"
+   checksum="43255f5da70c02272b469432eaa62c47"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="38"
+   name="person_item.rb"
+   text-time="2006-11-04T21:39:55.000000Z"
+   committed-date="2006-11-04T21:48:21.577000Z"
+   checksum="e47b34c6b96b920695e6656f71deb267"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="224"
+   name="message_state.rb"
+   text-time="2007-04-29T20:37:57.000000Z"
+   committed-date="2007-04-29T20:39:26.577875Z"
+   checksum="b8a2f3e0c656ea70b71ef86c99dc937c"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="address.rb"
+   text-time="2006-11-04T19:51:26.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="165bb6a7c9f6e10374a71878ea5c92a8"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="124"
+   name="options_step.rb"
+   text-time="2007-01-28T22:05:35.000000Z"
+   committed-date="2007-01-28T23:51:28.187500Z"
+   checksum="057fa2782f8343fac9ffdb719c9ef0e6"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="65"
+   name="carrier.rb"
+   text-time="2006-11-20T01:36:11.000000Z"
+   committed-date="2006-11-20T01:32:49.974660Z"
+   checksum="46968d3a8561c91d1948387beebf99a4"
+   last-author="nlamb"
+   kind="file"
+   prop-time="2006-11-20T01:36:11.000000Z"/>
+<entry
+   committed-rev="38"
+   name="thing_item.rb"
+   text-time="2006-11-04T21:40:10.000000Z"
+   committed-date="2006-11-04T21:48:21.577000Z"
+   checksum="cb4d6ee59b9fe919c499c912dcf8baa1"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="225"
+   name="item_step.rb"
+   text-time="2007-04-29T22:15:47.000000Z"
+   committed-date="2007-04-29T22:16:13.702875Z"
+   checksum="1245e5246693d6f39cc721784ff43608"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="zip_code.rb"
+   text-time="2006-10-28T20:08:20.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="86d4c159dde74c34615dd49e5a04c1e3"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="225"
+   name="item.rb"
+   text-time="2007-04-29T22:12:08.000000Z"
+   committed-date="2007-04-29T22:16:13.702875Z"
+   checksum="4f22b401fea40b46cd9187703a86fad2"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-12-06T03:31:32.000000Z"/>
+<entry
+   committed-rev="131"
+   name="segment.rb"
+   text-time="2007-02-18T02:38:24.000000Z"
+   committed-date="2007-02-18T03:43:35.437500Z"
+   checksum="7b021d2545772ee3fe154049e25fdff1"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-12-06T03:31:32.000000Z"/>
+<entry
+   committed-rev="205"
+   name="place_item.rb"
+   text-time="2007-04-02T05:10:25.000000Z"
+   committed-date="2007-04-02T05:26:18.216250Z"
+   checksum="2561f312f8d47c445f306c6c1fdccab9"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="224"
+   name="query.rb"
+   text-time="2007-04-29T19:46:47.000000Z"
+   committed-date="2007-04-29T20:39:26.577875Z"
+   checksum="f0a124ae0657fe1b9f194b149ed2e097"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-04-15T21:12:02.000000Z"/>
+<entry
+   committed-rev="224"
+   name="city.rb"
+   text-time="2007-04-29T18:39:28.000000Z"
+   committed-date="2007-04-29T20:39:26.577875Z"
+   checksum="5639e8fc90c5c010719ae9d9aaccbe8e"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="124"
+   name="option.rb"
+   text-time="2007-01-28T21:42:12.000000Z"
+   committed-date="2007-01-28T23:51:28.187500Z"
+   checksum="187eb7972c24c1c6c5db89a79208914b"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="224"
+   name="vote_step.rb"
+   text-time="2007-04-29T20:19:13.000000Z"
+   committed-date="2007-04-29T20:39:26.577875Z"
+   checksum="1245e5246693d6f39cc721784ff43608"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="38"
+   name="command_step.rb"
+   text-time="2006-11-04T21:36:43.000000Z"
+   committed-date="2006-11-04T21:48:21.577000Z"
+   checksum="2121db911ed42bbb13ea4333c45b4d50"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="188"
+   name="conversation_state.rb"
+   text-time="2007-04-01T01:20:08.000000Z"
+   committed-date="2007-04-01T01:22:21.653750Z"
+   checksum="d404b4edc69e91e2df251baa52ae4b1e"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="228"
+   name="conversation.rb"
+   text-time="2007-05-03T02:01:17.000000Z"
+   committed-date="2007-04-30T03:58:20.046625Z"
+   checksum="5de9b9565bfe795f3f0fe00c22b002e5"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-05-03T02:01:17.000000Z"/>
+<entry
+   committed-rev="129"
+   name="step.rb"
+   text-time="2007-02-15T03:52:50.000000Z"
+   committed-date="2007-02-15T05:54:02.734375Z"
+   checksum="2066b2f3aa2a281b0ba5f807ca4daf45"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="user_preference.rb"
+   text-time="2006-10-28T20:08:31.000000Z"
+   committed-date="2006-10-28T20:27:28.640625Z"
+   checksum="83564efd8e4839634aa35eb27d489ee7"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

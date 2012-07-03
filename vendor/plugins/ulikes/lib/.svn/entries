@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="228"
+   name=""
+   committed-date="2007-04-30T03:58:20.046625Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/vendor/plugins/ulikes/lib"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="228"
+   name="messaging.rb"
+   text-time="2007-05-03T02:01:18.000000Z"
+   committed-date="2007-04-30T03:58:20.046625Z"
+   checksum="a0eabae9715b3f1c04d2a8e056861835"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-05-03T02:01:18.000000Z"/>
+<entry
+   committed-rev="218"
+   name="ulikes.bak"
+   text-time="2007-04-21T01:55:30.000000Z"
+   committed-date="2007-04-19T05:54:54.734375Z"
+   checksum="98b56b229d35ee461f2bc1cea4c9e03c"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-04-21T01:55:30.000000Z"/>
+<entry
+   committed-rev="222"
+   name="lookup.rb"
+   text-time="2007-04-22T22:35:28.000000Z"
+   committed-date="2007-04-22T22:41:49.687500Z"
+   checksum="525692bcbf4f499acba040b3b3410b81"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-04-21T01:55:30.000000Z"/>
+<entry
+   committed-rev="218"
+   name="pdf.rb"
+   text-time="2007-04-21T01:55:30.000000Z"
+   committed-date="2007-04-19T05:54:54.734375Z"
+   checksum="abe5717d55236a842329622d8ef16e9c"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-04-21T01:55:30.000000Z"/>
+<entry
+   name="ulikes"
+   kind="dir"/>
+<entry
+   committed-rev="228"
+   name="ulikes.rb"
+   text-time="2007-05-03T02:01:18.000000Z"
+   committed-date="2007-04-30T03:58:20.046625Z"
+   checksum="73a7ce4d8b21d424ca98ba6f20e06df5"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-05-03T02:01:18.000000Z"/>
+</wc-entries>

@@ -1,0 +1,2 @@
+class ErrorStep < Step
+end

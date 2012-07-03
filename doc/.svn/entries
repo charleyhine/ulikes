@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="23"
+   name=""
+   committed-date="2006-10-27T02:42:27.343750Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/doc"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="app"
+   kind="dir"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   committed-rev="23"
+   name="README_FOR_APP"
+   text-time="2006-10-27T02:43:52.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="b4c29cfcb0758d15bdf7afbd2a5c280a"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+</wc-entries>

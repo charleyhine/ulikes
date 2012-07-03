@@ -1,0 +1,7 @@
+if @result
+		page.replace_html 'item_button_' + @id, "Item created!"
+		page.visual_effect :fade, 'item_row_' + @id, :duration => 2 
+else
+		page.replace_html 'message', error_messages_for(:item)
+end
+

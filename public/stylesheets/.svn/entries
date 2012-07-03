@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="205"
+   name=""
+   committed-date="2007-04-02T05:26:18.216250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/public/stylesheets"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="default"
+   kind="dir"/>
+<entry
+   committed-rev="205"
+   name="screen.css"
+   text-time="2007-04-02T02:46:29.000000Z"
+   committed-date="2007-04-02T05:26:18.216250Z"
+   checksum="9d3160f0e7844d92f9ad3a856aadd462"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="127"
+   name="scaffold.css"
+   text-time="2007-02-12T03:50:06.000000Z"
+   committed-date="2007-02-12T06:02:10.892625Z"
+   checksum="e53c72fc262efeeebf0104ba577ab342"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="156"
+   name="default.css"
+   text-time="2007-03-03T20:24:20.000000Z"
+   committed-date="2007-03-03T20:26:55.443625Z"
+   checksum="6477c3634c9af4d4d6a82fe4943b7638"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-01-08T00:12:56.000000Z"/>
+</wc-entries>

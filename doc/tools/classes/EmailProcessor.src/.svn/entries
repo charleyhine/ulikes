@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="232"
+   name=""
+   committed-date="2007-05-03T02:49:26.275250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/doc/tools/classes/EmailProcessor.src"
+   last-author="jhollander"
+   kind="dir"
+   revision="232"/>
+<entry
+   committed-rev="232"
+   name="M000001.html"
+   text-time="2007-05-03T02:29:30.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="3ec65b283845efefd3b9a289dbff1161"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="232"
+   name="M000002.html"
+   text-time="2007-05-03T02:29:30.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="46f0c2fdd9618edacd0032fbee638633"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="232"
+   name="M000003.html"
+   text-time="2007-05-03T02:29:30.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="9c05571a01bc3b2c877679f8bac25c11"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

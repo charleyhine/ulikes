@@ -1,0 +1,64 @@
+<%= error_messages_for 'item' %>
+
+<table cellpadding="5" cellspacing="5">
+	<tr>
+		<td><label for="item_name">Name</label></td>
+		<td><%= text_field 'item', 'name'  %></td>
+	</tr>
+	<tr>
+		<td><label for="item_description">Description</label></td>
+		<td><%= text_field 'item', 'description'  %></td>
+	</tr>
+	<tr>
+		<td><label for="item_type">Type</label></td>
+		<td>
+			<select id="item_type" name="item[type]">
+				<option value='PersonItem' <%= 'selected' if @item.type == PersonItem %>>Person</option>
+				<option value='PlaceItem' <%= 'selected' if @item.type == PlaceItem %>>Place</option>
+				<option value='ThingItem' <%= 'selected' if @item.type == ThingItem %>>Thing</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Keyword</label></td>
+		<td>
+		<% if @item.nil? %>
+		A keyword will be generated for this item.
+		<% elsif @item.keyword.nil?  %>
+		<%= text_field :keyword, :value %>&nbsp;&nbsp;
+		<% else %>
+		<%= text_field :keyword, :value, :value => @item.keyword.value %>&nbsp;&nbsp;
+		<% end %>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Segment</label></td>
+		<td><%= select(:item, :segment_id, Segment.find(:all).collect {|s| [ s.name, s.id ] }, { :include_blank => true }) %></td>
+	</tr>
+	<tr>
+		<td colspan=2><hr></td>
+	</tr>
+	<tr>
+		<td><label>Address</label></td>
+		<td><%= text_field :item, :street %></td>
+	</tr>
+	<tr>
+		<td><label>City</label></td>
+		<td><%= select(:item, :city_id, City.find(:all).collect {|c| [ c.name, c.id ] }, { :include_blank => true }) %></td>
+	</tr>
+	<tr>
+		<td><label>State</label></td>
+		<td><%= select(:item, :state_id, State.find(:all).collect {|s| [ s.abbreviation, s.id ] }, { :include_blank => true }) %></td>
+	</tr>
+	<tr>
+		<td><label>Zip Code</label></td>
+		<td><%= select(:item, :zip_code_id, ZipCode.find(:all).collect {|z| [ z.value, z.id ] }, { :include_blank => true }) %></td>
+	</tr>
+	<tr>
+		<td colspan=2><hr></td>
+	</tr>
+	<tr>
+		<td><label for="item_active">Active</label></td>
+		<td><%= check_box(:item, :active) %></td>
+	</tr>
+</table>

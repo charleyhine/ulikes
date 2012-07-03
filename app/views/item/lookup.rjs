@@ -1,0 +1,8 @@
+#clear out the previous search
+page.replace_html "search_results", ''
+
+for count in 0...@results.length
+  item = @results[count]
+    page.insert_html :bottom, "search_results", :partial => "lookup_item", :locals => { :item => item, :count => count }
+  count = count + 1
+end

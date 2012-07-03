@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="58"
+   name=""
+   committed-date="2006-11-13T00:50:45.791375Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/test/fixtures"
+   last-author="chine"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="37"
+   name="zip_codes.yml"
+   text-time="2006-11-03T03:47:50.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="8ef05509390aff6e0e83ff9a45bbea5c"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="cities.yml"
+   text-time="2006-11-03T03:47:32.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="a687a9bd8b288abe565e2e104375c062"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="41"
+   name="items.yml"
+   text-time="2006-11-06T04:01:46.000000Z"
+   committed-date="2006-11-06T03:20:04.392625Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="chine"
+   kind="file"
+   prop-time="2006-11-06T04:01:46.000000Z"/>
+<entry
+   committed-rev="58"
+   name="segments.yml"
+   text-time="2006-11-14T15:13:55.000000Z"
+   committed-date="2006-11-13T00:50:45.791375Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="chine"
+   kind="file"
+   prop-time="2006-11-14T15:13:55.000000Z"/>
+<entry
+   committed-rev="37"
+   name="conversation_steps.yml"
+   text-time="2006-11-03T03:36:43.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="e64296e8e321017efdc516ceefda7b8d"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="options.yml"
+   text-time="2006-11-03T03:37:53.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="e64296e8e321017efdc516ceefda7b8d"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="conversations.yml"
+   text-time="2006-11-03T03:36:55.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="838ae0bdc9126d9bb8f24374746a5b85"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="conversation_states.yml"
+   text-time="2006-11-04T20:10:34.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="2041aa3f969cfc6c222a9c3bfc612a14"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="steps.yml"
+   text-time="2006-11-04T20:10:51.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="4c03a3d55fb85441418269ccb2504c0a"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="user_preferences.yml"
+   text-time="2006-11-04T20:11:11.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="1c41ac768041cb89aaf8b6c53a3f1c95"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="votes.yml"
+   text-time="2006-11-03T03:38:25.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="e64296e8e321017efdc516ceefda7b8d"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="39"
+   name="users.yml"
+   text-time="2006-11-05T23:57:42.000000Z"
+   committed-date="2006-11-06T00:10:45.611375Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="commands.yml"
+   text-time="2006-11-04T20:00:57.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="d1a74e4d188c0e14b27bde88cf51583a"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="states.yml"
+   text-time="2006-11-03T03:42:58.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="072975d94a77b37b7d0e00740a9ea81c"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="keywords.yml"
+   text-time="2006-11-04T20:02:43.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="e36a160c15ee16d55969b40814db90dc"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="37"
+   name="addresses.yml"
+   text-time="2006-11-04T20:09:34.000000Z"
+   committed-date="2006-11-04T21:20:46.264500Z"
+   checksum="fddef80c6e4ec0e344fa2b0f689cdc01"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

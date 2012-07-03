@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="23"
+   name=""
+   committed-date="2006-10-27T02:42:27.343750Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/script/process"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="23"
+   name="spawner"
+   text-time="2006-10-27T02:43:51.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="e7e52ded28489a821b5eb156f92ca0f5"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:51.000000Z"/>
+<entry
+   committed-rev="23"
+   name="reaper"
+   text-time="2006-10-27T02:43:51.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="77608fa9e09e9f24410e7374c67956b7"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:51.000000Z"/>
+</wc-entries>

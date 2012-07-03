@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="161"
+   name=""
+   committed-date="2007-03-07T07:26:01.743964Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/app/views/admin"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   name="item"
+   kind="dir"
+   copyfrom-rev="117"
+   copyfrom-url="svn://applesauce.scrapping.cc/ulikes/trunk/app/views/admin/item2"/>
+</wc-entries>

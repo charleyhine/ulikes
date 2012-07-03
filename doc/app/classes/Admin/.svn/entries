@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="232"
+   name=""
+   committed-date="2007-05-03T02:49:26.275250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/doc/app/classes/Admin"
+   last-author="jhollander"
+   kind="dir"
+   revision="232"/>
+<entry
+   committed-rev="232"
+   name="ItemHelper.html"
+   text-time="2007-05-03T02:31:25.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="f65021a779a11f4cd1586a13a9d8887c"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="232"
+   name="ItemController.html"
+   text-time="2007-05-03T02:31:25.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="43832806afcd016fd86103755b1d1c0f"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

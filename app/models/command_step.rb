@@ -1,0 +1,2 @@
+class CommandStep < Step
+end

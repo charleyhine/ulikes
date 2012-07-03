@@ -1,0 +1,30 @@
+	<div class="divResult">	
+		<div class="divPadding">
+      <form>
+        <input type="hidden" name="id" value="<%= item.id %>" >
+		
+				<h2 class="h2Name">
+					<%= item.name %>
+					<span class="spanVoteCount">
+						<% if !item.new_record? || !item.keyword.nil? %>
+							(<%= item.vote_count %> votes)
+						<% end %>
+					</span>
+				</h2>
+
+				<h3 id='item_button_<%= item.id %>' class="Keyword">
+				<% if item.new_record? || item.keyword.nil? %>
+          <%= create_item_button(item.id) %>
+				<% else %>
+					<%= keyword_html(item) %>
+					<% end %>
+				</h3>
+
+				<h4 class="h4Address"><%= item.street %>/ <%= item.city.name %>, <%= item.state.abbreviation %></h4>
+
+        <ul id='item_tasks_<%= item.id %>' class="ulResultTasks">
+					<%= task_list_html(item) %>
+				</ul>        
+				</form>
+			</div>
+		</div>

@@ -1,0 +1,79 @@
+<script>
+var win = new Window(Application.getNewId(), {className: "dialog", width: 540,
+			height: 400, zIndex: 100, resizable: true, title: "New Item",
+			maximizable: false, minimizable: false, draggable: true, 
+			showEffectOptions: {duration:0.5},
+			wiredDrag: true});
+</script>
+
+<div style="color: green" id='message'></div>
+<script type="text/javascript" src="http://maps.yahooapis.com/v3.04/fl/javascript/apiloader.js?appid=applesauce"></script>
+<div>You searched for <strong><%= @query %></strong> near <strong><%= @location %></strong></div><br/>
+<%= form_remote_tag :url => { :action => "create", :id => @item } %>
+<table style="border:1px solid #000000;" border="0" cellspacing="0" cellpadding="5">
+		<tr style="background-color: #cccccc">
+				<td>&nbsp;</td>
+				<td>Result</td>
+				<td>Address</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+		</tr>
+	<% for i in 0...@results.length %>
+		<% r = @results[i] %>
+		<tr id="item_row_<%=i%>" class="row<%=i%>">
+				<input type="hidden" name="item[<%=i%>][type]" value="PlaceItem" />
+				<input type="hidden" name="item[<%=i%>][name]" value="<%=r.name%>" />
+				<input type="hidden" name="item[<%=i%>][street]" value="<%=r.street%>" />
+				<input type="hidden" name="item[<%=i%>][city_id]" value="<%=r.city.id%>" />
+				<input type="hidden" name="item[<%=i%>][state_id]" value="<%=r.state.id%>" />
+				<input type="hidden" name="item[<%=i%>][phone_number]" value="<%=r.phone_number%>" />
+				<input type="hidden" name="item[<%=i%>][latitude]" value="<%=r.latitude%>" />
+				<input type="hidden" name="item[<%=i%>][longitude]" value="<%=r.longitude%>" />
+				<td><%= i + 1 %></td>
+				<td><%=h r.name%></td>
+				<td><%=h r.street%>
+					<br><%=h r.city.name%>, <%=h r.state.abbreviation%></td>
+				<td><%=link_to("Info", r.url)%></td>
+				<td><%=link_to("Map", r.map_url)%></td>
+				<td id="item_button_<%=i%>" style="color: green">
+				<% if r.new_record? || r.keyword.nil? %>
+					<%= submit_to_remote( 'blah', 'Add this item', :url => { :action => "create_from_search", :id => i } ) %>
+					<% else %>
+						Keyword: <%= r.keyword.value %>
+					<% end %>
+				</td>
+		</tr>
+<% i = i + 1
+end %>
+</table>
+<%= end_form_tag %>
+<br/>
+<div id="mapContainer"></div>
+<script type="text/javascript">
+		// Create and display Map object at the address and with zoom level 3 
+		// Include your application ID.
+		var map = new Map("mapContainer", "YahooDemo", 
+				new LatLon(<%= @results[0].latitude %>,<%= @results[0].longitude %>), 5); 
+		
+		// Make the map draggable 
+		map.addTool( new PanTool(), true );
+		map.addWidget( new NavigatorWidget() );
+		
+		<% i = 0
+		for r in @results %>
+			marker<%= i %> = new CustomPOIMarker( '<%= (i+1).to_s + " " + r.name %>', '<%= r.street %>',
+				'<%= r.city.name %>', '0xFF0000', '0xFFFFFF'); 
+				map.addMarkerByLatLon( marker<%= i %>, new LatLon(<%= r.latitude %>, <%= r.longitude %>));
+		<% i = i + 1
+		end %>
+</script> 
+
+<script>
+function editItem(id) {
+	win.setTitle("Edit Item");
+	win.setAjaxContent("<%= url_for(:action => 'edit' ) %>/" + id, 
+			{method: "get"}, true, true);
+	$('mapContainer').hide();
+}
+</script>

@@ -1,0 +1,22 @@
+class IndexController < ApplicationController
+  #layout "global"
+
+  # GETs should be safe (see http://www.w3.org/2001/tag/doc/whenToUseGet.html)
+  #verify :method => :post, :only => [ :destroy, :create, :update ],
+  #       :redirect_to => { :action => :list }
+	
+#  def index
+#		stats
+#		render :action => :stats
+#  end
+#
+#	def stats
+#		@top_ten = Item.find_top_ten()
+#		@recent_items = Item.find_recent_items()
+#		@recent_votes = Item.find_recently_voted()
+#	end
+
+  def index
+		render :action => :splash
+  end
+end

@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>ulikes &mdash; mobile voting</title>
+		<%= stylesheet_link_tag 'screen' %>
+		<%= javascript_include_tag :defaults %>
+		<%= javascript_include_tag 'formSearch' %>
+	</head>
+	<body id="bodyAlternate">
+		<div id="divContainer">
+			<div id="divTitleAlternate">
+				<h1><a href="/">ulikes</a></h1>
+				<ul id="ulNavigation"> 
+					<li><a href="#">About</a></li>
+			    </ul>
+			</div>
+			<hr class="hidden" />
+
+<!-- ******************************************************************************************************* -->
+<!-- END OF HEADER****************************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+
+			<div id="divSearch">
+				<%= start_form_tag(:controller => 'item', :action => 'lookup') %>
+					<input type="text" id="inputTextSearch1" name="query" value="search for a place" onFocus="formSearchFocus(this,'search for a place')" onBlur="formSearchBlur(this,'search for a place')"/>
+					<input type="text" id="inputTextSearch2" name="location" value="in this city, state" onFocus="formSearchFocus(this,'in this city, state')" onBlur="formSearchBlur(this,'in this city, state')"/>
+					<input type="submit" id="inputSubmitSearch" value="Search" />
+					<!--<input type="image" id="inputImageSearch" src="./images/search_button.png"  value="Search" alt="Search"/> -->
+				</form>
+			</div>
+			<div class="divColumn2">
+				<div class="divPadding">   
+
+<!-- ******************************************************************************************************* -->
+<!-- DIV MAIN ************************************************************************************* -->
+				<%= yield %>	
+<!-- END DIV MAIN ********************************************************************************* -->
+<!-- ******************************************************************************************************* -->
+
+				</div>
+			</div>
+			<hr class="hidden" />
+			<div class="divColumnDummy">
+				<div class="divColumn">
+					<h2 id="h2RecentlyPopular">recently popular</h2>
+						<div class="divPadding">
+<!-- ******************************************************************************************************* -->
+<!-- DIV RECENTLY POPULAR*********************************************************************************** -->
+
+
+							<ul>
+							<% for item in get_recently_popular() %>
+              <li><a href="<%= url_for(:controller => :item, :action => :show, :id => item.id) %>"><%= item.name %> - <%= item.city.name %>, <%= item.state.abbreviation %> </a> (<%= item.vote_count %>)</a></li>
+							<% end %>
+							</ul>
+
+
+<!-- END DIV RECENTLY POPULAR******************************************************************************* -->
+<!-- ******************************************************************************************************* -->
+					</div>
+				</div> 
+				<div class="divTopMargin">
+					<div class="divColumn">
+						<h2 id="h2RecentVotes">recent votes</h2>
+						<div class="divPadding">
+<!-- ******************************************************************************************************* -->
+<!-- DIV RECENT VOTES*************************************************************************************** -->
+
+
+							<ul>
+							<% for item in get_recent_votes() %>
+              <li><a href="<%= url_for(:controller => :item, :action => :show, :id => item.id) %>"><%= item.name %> - <%= item.city.name %>, <%= item.state.abbreviation %> </a> (<%= item.vote_count %>)</a></li>
+							<% end %>
+							</ul>
+
+
+<!-- END DIV RECENT VOTES*********************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+						</div>
+					</div> 
+				</div>
+				<div class="divTopMargin">
+					<div class="divColumn">
+						<h2 id="h2TopTen">top ten</h2>
+						<div class="divPadding">
+<!-- ******************************************************************************************************* -->
+<!-- DIV TOP TEN******************************************************************************************** -->
+
+
+							<ul>
+							<% for item in get_top_ten() %>
+              <li><a href="<%= url_for(:controller => :item, :action => :show, :id => item.id) %>"><%= item.name %> - <%= item.city.name %>, <%= item.state.abbreviation %> </a> (<%= item.vote_count %>)</a></li>
+							<% end %>
+							</ul>
+
+
+<!-- END DIV TOP TEN**************************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+						</div>
+					</div> 
+				</div>				
+			</div>
+
+			
+<!-- ******************************************************************************************************* -->
+<!-- START OF FOOTER**************************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+			<hr class="hidden" />
+			<div id="divFooter">
+<!-- ******************************************************************************************************* -->
+<!-- DIV FOOTER********************************************************************************************* -->
+
+				copyright &copy; 2007 www.ulikes.org
+
+<!-- END DIV FOOTER***************************************************************************************** -->
+<!-- ******************************************************************************************************* -->
+			</div>
+		</div>
+	</body>       
+</html>

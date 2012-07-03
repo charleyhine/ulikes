@@ -1,0 +1,38 @@
+	<div class="divResult">	
+		<div class="divPadding">
+				<form>
+				<input type="hidden" name="item[type]" value="PlaceItem">
+				<input type="hidden" name="item[name]" value="<%=item.name%>">
+				<input type="hidden" name="item[street]" value="<%=item.street%>">
+				<input type="hidden" name="item[city_id]" value="<%=item.city.id%>">
+				<input type="hidden" name="item[state_id]" value="<%=item.state.id%>">
+				<input type="hidden" name="item[phone_number]" value="<%=item.phone_number%>">
+				<input type="hidden" name="item[latitude]" value="<%=item.latitude%>">
+				<input type="hidden" name="item[longitude]" value="<%=item.longitude%>">
+		
+				<h2 class="h2Name">
+					<%= item.name %>
+					blah
+				</h2>
+				<span class="spanVoteCount">
+					<% if !item.new_record? || !item.keyword.nil? %>
+						(<%= item.vote_count %> votes)
+					<% end %>
+				</span>
+
+				<h3 id='item_button_<%= count %>' class="Keyword">
+				<% if item.new_record? || item.keyword.nil? %>
+				<%= create_item_button(count) %>
+				<% else %>
+					<%= keyword_html(item) %>
+					<% end %>
+				</h3>
+
+				<h4 class="h4Address"><%= item.street %>/ <%= item.city.name %>, <%= item.state.abbreviation %></h4>
+
+				<ul id='item_tasks_<%= count %>' class="ulResultTasks">
+					<%= task_list_html(item) %>
+				</ul>        
+				</form>
+			</div>
+		</div>

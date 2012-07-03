@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="184"
+   name=""
+   committed-date="2007-03-30T05:16:17.325625Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/public/images"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="147"
+   name="mobile_voting.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="9fc5516c4a85c10b92a412a58d13934a"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   committed-rev="174"
+   name="ulikes_logo.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="12d499d2708ae99551fb4a9eb3da3cdf"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="174"
+   name="check.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="87fb70b0101051f79043466d84881e95"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="147"
+   name="spacer.gif"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="df3e567d6f16d040326c7a0ea29a4f41"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   name="alphacube"
+   kind="dir"/>
+<entry
+   committed-rev="174"
+   name="ten.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="199c0cb26844e7fd74e3482acd36f3f6"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="147"
+   name="bgFade.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="b80bd6d6183a8cdfc019e56eceb5b864"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   committed-rev="39"
+   name="add.gif"
+   text-time="2006-11-05T23:57:43.000000Z"
+   committed-date="2006-11-06T00:10:45.611375Z"
+   checksum="23f2df08e6612a31901f439e2535899b"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-11-06T00:10:39.000000Z"/>
+<entry
+   committed-rev="23"
+   name="rails.png"
+   text-time="2006-10-27T02:43:52.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="450fc241fab7867e96536903244087f4"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+<entry
+   committed-rev="174"
+   name="clock.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="36f1b1bfcfe6c90e7fec799c073890c7"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="147"
+   name="ulikes_logo.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="1d4917811197a28b9f1d9081345fb94f"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   committed-rev="175"
+   name="indicator_snake.gif"
+   text-time="2007-03-27T03:15:58.000000Z"
+   committed-date="2007-03-27T04:17:21.468750Z"
+   checksum="b0eaadb5d32dc8900a281cb054a8d205"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-27T03:16:15.000000Z"/>
+<entry
+   committed-rev="174"
+   name="mobile_voting.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="431d496105ad6777838aa2ca4f7ffb24"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="147"
+   name="plus_one.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="5c3dfdb126ecd17fa43970cd3bae28a3"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   committed-rev="184"
+   name="bgSplash.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-30T05:16:17.325625Z"
+   checksum="371dfc537a7f594782e7241adb490053"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-30T05:15:28.000000Z"/>
+<entry
+   committed-rev="174"
+   name="ulikes_logo_small.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="5e9e0910c87dd07b5c95818a5ab775c2"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="147"
+   name="ten.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="33a47d9e937fce9099ffec350482318a"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   committed-rev="184"
+   name="bgSplashDark.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-30T05:16:17.325625Z"
+   checksum="67187b50125944d846b63620384c73b0"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-30T05:15:37.000000Z"/>
+<entry
+   committed-rev="174"
+   name="bgFade.gif"
+   text-time="2007-03-30T04:48:51.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="c2a39d94420dca845b827216fd8c2982"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-26T04:49:49.000000Z"/>
+<entry
+   committed-rev="147"
+   name="bgWhite.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="2020ff2f174ebf6a537fc19994e960f4"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+<entry
+   committed-rev="175"
+   name="indicator_arrows.gif"
+   text-time="2007-03-27T03:16:09.000000Z"
+   committed-date="2007-03-27T04:17:21.468750Z"
+   checksum="c8ad9845c9414424cb5854238af212b0"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-27T03:16:15.000000Z"/>
+<entry
+   committed-rev="147"
+   name="clock.png"
+   text-time="2007-02-25T21:47:34.000000Z"
+   committed-date="2007-02-25T22:02:44.322875Z"
+   checksum="ba5789884a9a379d877789225a9122b6"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-02-25T22:02:00.000000Z"/>
+</wc-entries>

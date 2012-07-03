@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="222"
+   name=""
+   committed-date="2007-04-22T22:41:49.687500Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/app/views/item"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="219"
+   name="create.rjs"
+   text-time="2007-04-21T03:35:25.000000Z"
+   committed-date="2007-04-21T03:36:19.828125Z"
+   checksum="b8b9ea7c1baac518781a13fe68994f9e"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-23T01:56:23.000000Z"/>
+<entry
+   committed-rev="162"
+   name="lookup.rjs"
+   text-time="2007-03-23T01:56:23.000000Z"
+   committed-date="2007-03-23T01:53:14.313250Z"
+   checksum="f561e95ad66d7389a8c8678fcd0c8232"
+   last-author="chine"
+   kind="file"
+   prop-time="2007-03-23T01:56:23.000000Z"/>
+<entry
+   committed-rev="219"
+   name="_lookup_item.rhtml"
+   text-time="2007-04-21T03:35:26.000000Z"
+   committed-date="2007-04-21T03:36:19.828125Z"
+   checksum="09e66f7acef4967e78796db64a32a542"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-23T01:56:23.000000Z"/>
+<entry
+   committed-rev="222"
+   name="lookup.rhtml"
+   text-time="2007-04-23T01:51:44.000000Z"
+   committed-date="2007-04-22T22:41:49.687500Z"
+   checksum="b0199f8659d0c5ed3a58c9e38e99e1c7"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-23T01:56:23.000000Z"/>
+</wc-entries>

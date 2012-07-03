@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first:
+  street: 801 Englewood Pkwy
+  city_id: 1
+  zip_code_id: 1
+second: 
+  street: 123 Fake St.
+  city_id: 1
+  zip_code_id: 1
+#another:
+#  street: 123 Fake St.

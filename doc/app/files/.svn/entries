@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="232"
+   name=""
+   committed-date="2007-05-03T02:49:26.275250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/doc/app/files"
+   last-author="jhollander"
+   kind="dir"
+   revision="232"/>
+<entry
+   name="app"
+   kind="dir"/>
+<entry
+   name="doc"
+   kind="dir"/>
+</wc-entries>

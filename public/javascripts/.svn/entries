@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="174"
+   name=""
+   committed-date="2007-03-26T04:50:08.313250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/public/javascripts"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="127"
+   name="ajax_scaffold.js"
+   text-time="2007-02-12T02:48:48.000000Z"
+   committed-date="2007-02-12T06:02:10.892625Z"
+   checksum="96a9cc4bb272df69f40f3aa07cd3e4f5"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="39"
+   name="rico_corner.js"
+   text-time="2006-11-05T23:57:43.000000Z"
+   committed-date="2006-11-06T00:10:45.611375Z"
+   checksum="07cdae6e06b2071111dcc27f357acd66"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="141"
+   name="prototype.js"
+   text-time="2007-01-18T20:58:42.000000Z"
+   committed-date="2007-02-24T18:59:29.338500Z"
+   checksum="ed2d6608b0832c5e990e10729157b485"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:53.000000Z"/>
+<entry
+   committed-rev="156"
+   name="window.js"
+   text-time="2007-03-03T19:33:06.000000Z"
+   committed-date="2007-03-03T20:26:55.443625Z"
+   checksum="c98ed59e3e9ab12744048dd43ee24c77"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-01-08T00:13:28.000000Z"/>
+<entry
+   committed-rev="174"
+   name="formSearch.js"
+   text-time="2007-03-26T04:13:43.000000Z"
+   committed-date="2007-03-26T04:50:08.313250Z"
+   checksum="ab21ea830084cbc7ef33a771a4445c12"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="effects.js"
+   text-time="2006-10-27T02:43:54.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="1bf9e7ea099a222968c0f52cdee468be"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:53.000000Z"/>
+<entry
+   committed-rev="23"
+   name="dragdrop.js"
+   text-time="2006-10-27T02:43:54.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="7d686eb473f836647e9d95cc13655dd3"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:53.000000Z"/>
+<entry
+   committed-rev="156"
+   name="application.js"
+   text-time="2007-03-03T20:23:26.000000Z"
+   committed-date="2007-03-03T20:26:55.443625Z"
+   checksum="e57fd54cd28455cf8172e170558dfa25"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:54.000000Z"/>
+<entry
+   committed-rev="23"
+   name="controls.js"
+   text-time="2006-10-27T02:43:54.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="23cef7404ffe6d410b0c235433771d51"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:54.000000Z"/>
+</wc-entries>

@@ -1,0 +1,15 @@
+if @result
+	page.Windows.closeAll() #close the popup window
+
+	#insert the new item into the list
+	page.insert_html :after, 'item_list_header', :partial => 'item_row', :locals => {
+		:item => @item }
+
+	#highlight the new row
+	page.visual_effect( :highlight, 'item_row_' + @item.id.to_s, :duration => 3 )
+else
+	#show any error messages
+	page.replace_html :error_messages, 
+			error_messages_for(:item)
+end
+

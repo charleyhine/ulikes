@@ -1,0 +1,121 @@
+# ULikes Lookup library
+#
+# @version: 1
+# @author: nlamb, jho
+require 'net/http'
+require 'rexml/document'
+require 'scanf'
+require 'ulikes'
+include REXML
+
+module ULikes
+	module Lookup
+		class YahooLocalV2
+			include ULikes
+
+      @@query_count = 0
+      def initialize(query, location, start, result_count)
+        @query = query
+        @location = location
+        @start = start
+        @result_count = result_count
+        @results = Array.new
+        @city = nil
+        @state = nil
+      end
+      attr_reader :results, :start, :result_count, :query, :location,
+        :query_count, :state, :city
+      attr_writer :start, :result_count, :query, :location
+
+      def search()    
+        doc = get_results_doc()
+        doc.root.elements.each("Result") do |e|
+          log.debug("Got an item #{e.elements["Title"].text}")
+         
+          city = save_city_and_state(e.elements["City"].text, e.elements["State"].text)
+
+          # see if we already have this item in our db
+          item = Item.find_existing(e.elements["Title"].text, 
+                             e.elements["Latitude"].text, 
+                             e.elements["Longitude"].text)
+
+          if item.nil?
+            item = PlaceItem.new(:name => e.elements["Title"].text,
+                            :street => e.elements["Address"].text,
+                            :city => city,
+                            :state => city.state,
+                            :phone_number => e.elements["Phone"].text,
+                            :latitude => e.elements["Latitude"].text,
+                            :longitude => e.elements["Longitude"].text)
+            log.debug("Got a new item: " + item.name)
+            if !item.phone_number.nil?
+              #fix up the format of the phone_number
+              item.phone_number.gsub!(/\(|-|\)| /, '')
+            end
+          end
+
+          yahoo_id = e.elements["Url"].text.match('id=(\d*)&')[1]
+          log.debug("YahooID = " + yahoo_id)
+
+          #add the yahoo local id 
+          if item.yahoo_local_id.nil?
+            item.yahoo_local_id = yahoo_id
+            #if it is not a new record save it
+            if !item.new_record?
+              item.save
+            end
+          end
+          @results.push(item)
+        end
+        return @results
+      end #search()
+
+      def get_results_doc()
+        @@query_count += 1
+        st = URI.encode(@query)
+        l = URI.encode(@location)
+       
+        log.debug("Lookup: #{@query} #{@location} start: #{@start} count: #{@result_count}")
+        @url = "http://local.yahooapis.com/LocalSearchService/V2/localSearch?"
+        @url << "appid=applesauce&query=#{st}&location=#{l}&start=#{@start}&results=#{@result_count}"
+        log.debug("Query string: #{@url}")
+        resp = Net::HTTP.get_response(URI.parse(@url)) # get_response takes an URI object
+        doc = Document.new(resp.body)
+      end
+      private :get_results_doc
+
+      def save_city_and_state(city_name, state_abbrev) 
+        #don't find this state if we already did
+        if @state.nil? || @state.abbreviation != state_abbrev
+          state = State.find_or_create_by_abbreviation(state_abbrev)
+          log.debug("Found new state: #{state.name}")
+        else
+          state = @state
+        end
+
+        #don't find this city if we already did
+        if @city.nil? || @city.name != city_name
+          city = City.find_or_create_by_name(city_name)
+          log.debug("Found new city: #{city.name}")
+        else
+          city = @city
+        end
+
+        #make sure the city has its state set correctly
+        if city.state.nil? || city.state.abbreviation != state.abbreviation 
+          city.state = state
+          city.save
+        end
+
+        #capture the city and state for this lookup
+        if @city.nil?
+          @city = city
+          @state = state
+        end
+        return city
+      end
+      private :save_city_and_state
+
+    end #end YahooLookupV2
+	end #Lookup
+end #ULikes

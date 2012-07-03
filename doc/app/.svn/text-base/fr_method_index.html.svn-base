@@ -1,0 +1,86 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--
+
+    Methods
+
+  -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Methods</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="rdoc-style.css" type="text/css" />
+  <base target="docwin" />
+</head>
+<body>
+<div id="index">
+  <h1 class="section-bar">Methods</h1>
+  <div id="index-entries">
+    <a href="classes/ApplicationHelper.html#M000043">ajax_window_link (ApplicationHelper)</a><br />
+    <a href="classes/User.html#M000017">authenticate (User)</a><br />
+    <a href="classes/Vote.html#M000012">cast_and_respond (Vote)</a><br />
+    <a href="classes/Admin/ItemController.html#M000053">create (Admin::ItemController)</a><br />
+    <a href="classes/ItemController.html#M000024">create (ItemController)</a><br />
+    <a href="classes/Admin/ItemController.html#M000060">create_from_search (Admin::ItemController)</a><br />
+    <a href="classes/ItemHelper.html#M000042">create_item_button (ItemHelper)</a><br />
+    <a href="classes/Message.html#M000005">create_tmail (Message)</a><br />
+    <a href="classes/Conversation.html#M000016">current_message (Conversation)</a><br />
+    <a href="classes/Admin/ItemController.html#M000056">destroy (Admin::ItemController)</a><br />
+    <a href="classes/Admin/ItemController.html#M000054">edit (Admin::ItemController)</a><br />
+    <a href="classes/ApplicationHelper.html#M000044">editable_content (ApplicationHelper)</a><br />
+    <a href="classes/Query.html#M000009">execute (Query)</a><br />
+    <a href="classes/Vote.html#M000013">exists (Vote)</a><br />
+    <a href="classes/Item.html#M000031">extract_item_from_text (Item)</a><br />
+    <a href="classes/Item.html#M000028">factory (Item)</a><br />
+    <a href="classes/Item.html#M000030">find_by_query (Item)</a><br />
+    <a href="classes/Item.html#M000029">find_existing (Item)</a><br />
+    <a href="classes/City.html#M000007">find_from_text (City)</a><br />
+    <a href="classes/Query.html#M000010">find_or_create (Query)</a><br />
+    <a href="classes/Item.html#M000033">find_recent_items (Item)</a><br />
+    <a href="classes/Item.html#M000034">find_recently_voted (Item)</a><br />
+    <a href="classes/Item.html#M000032">find_top_ten (Item)</a><br />
+    <a href="classes/Keyword.html#M000036">generate (Keyword)</a><br />
+    <a href="classes/User.html#M000018">generate_password (User)</a><br />
+    <a href="classes/Segment.html#M000008">get_full_path (Segment)</a><br />
+    <a href="classes/ApplicationHelper.html#M000046">get_recent_votes (ApplicationHelper)</a><br />
+    <a href="classes/ApplicationHelper.html#M000045">get_recently_popular (ApplicationHelper)</a><br />
+    <a href="classes/Message.html#M000006">get_tmail_body (Message)</a><br />
+    <a href="classes/ApplicationHelper.html#M000047">get_top_ten (ApplicationHelper)</a><br />
+    <a href="classes/Keyword.html#M000035">handle (Keyword)</a><br />
+    <a href="classes/Conversation.html#M000015">handle (Conversation)</a><br />
+    <a href="classes/Vote.html#M000011">handle (Vote)</a><br />
+    <a href="classes/Admin/ItemController.html#M000050">index (Admin::ItemController)</a><br />
+    <a href="classes/ItemController.html#M000020">index (ItemController)</a><br />
+    <a href="classes/ApplicationHelper.html#M000049">item_hidden_fields (ApplicationHelper)</a><br />
+    <a href="classes/ItemHelper.html#M000040">keyword_html (ItemHelper)</a><br />
+    <a href="classes/Admin/ItemController.html#M000051">list (Admin::ItemController)</a><br />
+    <a href="classes/Conversation.html#M000014">load (Conversation)</a><br />
+    <a href="classes/Admin/ItemController.html#M000059">local_search (Admin::ItemController)</a><br />
+    <a href="classes/ItemController.html#M000022">lookup (ItemController)</a><br />
+    <a href="classes/PlaceItem.html#M000026">map_url (PlaceItem)</a><br />
+    <a href="classes/Item.html#M000027">name_with_location (Item)</a><br />
+    <a href="classes/Admin/ItemController.html#M000052">new (Admin::ItemController)</a><br />
+    <a href="classes/Message.html#M000001">parse_sms (Message)</a><br />
+    <a href="classes/ItemController.html#M000023">print_banner (ItemController)</a><br />
+    <a href="classes/ApplicationHelper.html#M000048">progress_spinner_js (ApplicationHelper)</a><br />
+    <a href="classes/Message.html#M000003">send_email (Message)</a><br />
+    <a href="classes/Message.html#M000004">send_error_email (Message)</a><br />
+    <a href="classes/Message.html#M000002">send_sms (Message)</a><br />
+    <a href="classes/Admin/ItemController.html#M000057">set_item_active (Admin::ItemController)</a><br />
+    <a href="classes/Admin/ItemController.html#M000058">set_item_type (Admin::ItemController)</a><br />
+    <a href="classes/ItemController.html#M000021">show (ItemController)</a><br />
+    <a href="classes/User.html#M000019">sms_email (User)</a><br />
+    <a href="classes/Keyword.html#M000039">successor (Keyword)</a><br />
+    <a href="classes/Keyword.html#M000038">successor= (Keyword)</a><br />
+    <a href="classes/ItemHelper.html#M000041">task_list_html (ItemHelper)</a><br />
+    <a href="classes/Keyword.html#M000037">upcase_value (Keyword)</a><br />
+    <a href="classes/Admin/ItemController.html#M000055">update (Admin::ItemController)</a><br />
+    <a href="classes/PlaceItem.html#M000025">url (PlaceItem)</a><br />
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+if @result
+		page.replace_html 'item_button_' + @item.id.to_s, keyword_html(@item)
+		page.replace_html 'item_tasks_' + @item.id.to_s, task_list_html(@item)
+else
+		page.replace_html 'searchMessages', error_messages_for(:item)
+end

@@ -1,0 +1,47 @@
+class Conversation < ActiveRecord::Base
+
+	has_many :steps, :order => "created_on DESC"
+	belongs_to :next_step, :class_name => "Step", :foreign_key => "next_step_id"
+	belongs_to :state, :class_name => "ConversationState", :foreign_key => "conversation_state_id"
+	belongs_to :user
+	has_many :messages, :order => "created_on DESC"
+
+	def Conversation.load(message)
+		log.debug("Loading conversation for message: #{message.id}")
+		conversation = nil
+		if !message.user.nil?
+			#get the last conversation for this user
+			conversation = Conversation.find(:first,
+																				:conditions => 
+																					[ 'conversation_state_id = ? and user_id = ? ', 
+																					ConversationState::OPEN.id, message.user.id ], 
+																				:order => 'conversations.created_on DESC'
+																			)
+			if conversation.nil?
+				log.debug("Creating a new conversation for message: #{message.id}")
+				conversation = Conversation.create( :user => message.user, :state => ConversationState::OPEN )
+			end
+			message.conversation = conversation
+			message.save
+		end
+		return conversation
+	end
+
+	def Conversation.handle(conversation)
+		if conversation.next_step.nil?
+			if !Conversation.successor.nil?
+				Conversation.successor.handle(conversation)
+			end
+		else
+			log_handle(Conversation, conversation)
+			conversation.next_step.process()
+		end
+	end
+
+	def current_message
+		if @current_message.nil?
+	   @current_message = Message.find(:first, ["conversation_id = ? and message_state_id = ? ", self.id, MessageState::RECEIVED.id], :order => "created_on DESC")
+		end
+		return @current_message
+	end
+end

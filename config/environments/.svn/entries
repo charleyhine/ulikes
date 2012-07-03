@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="23"
+   name=""
+   committed-date="2006-10-27T02:42:27.343750Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/config/environments"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="23"
+   name="test.rb"
+   text-time="2006-10-27T02:43:52.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="5d77b56f8a9fb3d3cbdd282a850b8eb4"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+<entry
+   committed-rev="23"
+   name="development.rb"
+   text-time="2007-02-17T21:49:49.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="e8b28b6942e649e4a7766c3bed33fb63"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+<entry
+   committed-rev="23"
+   name="production.rb"
+   text-time="2006-10-27T02:43:52.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="bb689b1559ca76304f418adbeb38750b"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+</wc-entries>

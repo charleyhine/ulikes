@@ -1,0 +1,31 @@
+<div id='status_message' style='color: green'></div>
+
+<h1>Items</h1>
+
+<table id='item_list'>
+<tr id='item_list_header'>
+		<th align="left">Name</th>
+		<th align="left">Description</th>
+		<th align="left">Type</th>
+		<th align="left">Keyword</th>
+		<th align="left">Active</th>
+		<th align="left">Created</th>
+		<th align="left">Updated</th>
+	</tr>
+	<% for item in @items %>
+		<%= render :partial => 'item_row', :locals => { :item => item } %>
+	<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @item_pages.current.previous } if @item_pages.current.previous %>
+<%= link_to 'Next page', { :page => @item_pages.current.next } if @item_pages.current.next %> 
+
+<br />
+
+<%= ajax_window_link("New Item", "New Item", url_for(:action => :new)) %>
+<br />
+<br />
+<div id='search_mesage' style='color: green'><%= flash[:search_message] %></div>
+<%= form_tag(:action => :local_search)%>
+Local Search: <%= text_field :local_search_query, nil, :size => "30" %>&nbsp;&nbsp;<%= submit_tag "Search" %></td>
+<%= end_form_tag %>

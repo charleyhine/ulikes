@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="224"
+   name=""
+   committed-date="2007-04-29T20:39:26.577875Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/db/migrate"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="221"
+   name="005_remove_id_from_items_queries.rb"
+   text-time="2007-04-22T19:51:57.000000Z"
+   committed-date="2007-04-22T22:16:04.328125Z"
+   checksum="5c5300ac70b9b0f8d939ef24f66d1d02"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="205"
+   name="003_add_yahoo_local_id_to_item.rb"
+   text-time="2007-04-02T04:08:01.000000Z"
+   committed-date="2007-04-02T05:26:18.216250Z"
+   checksum="b1acb0fa35d0be6bc6a7af29ea0b9c14"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="221"
+   name="006_add_vote_count_to_item.rb"
+   text-time="2007-04-22T21:10:00.000000Z"
+   committed-date="2007-04-22T22:16:04.328125Z"
+   checksum="eb8db8223a2ceded3fd8ce2c35dfcd72"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="179"
+   name="001_import_data.rb"
+   text-time="2007-04-01T18:29:27.000000Z"
+   committed-date="2007-03-28T03:54:39.966798Z"
+   checksum="4d1a559eb1865fc8d3d7122b7370ce28"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-30T04:30:31.000000Z"/>
+<entry
+   committed-rev="210"
+   name="002_add_carriers.rb"
+   text-time="2007-04-07T23:03:38.000000Z"
+   committed-date="2007-04-04T03:01:10.841250Z"
+   checksum="327d1baba0797a5e1adbf8dc93784350"
+   last-author="chine"
+   kind="file"
+   prop-time="2007-04-07T23:03:38.000000Z"/>
+<entry
+   committed-rev="223"
+   name="008_remove_addresses_table.rb"
+   text-time="2007-04-23T02:18:23.000000Z"
+   committed-date="2007-04-28T02:44:12.984125Z"
+   checksum="8414e572456a08f728dee03662f069bb"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="224"
+   name="009_add_vote_step.rb"
+   text-time="2007-04-29T20:20:32.000000Z"
+   committed-date="2007-04-29T20:39:26.577875Z"
+   checksum="7a7d29cfaae176a2569ca27d68022686"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="221"
+   name="007_set_vote_count_default.rb"
+   text-time="2007-04-22T22:14:10.000000Z"
+   committed-date="2007-04-22T22:16:04.328125Z"
+   checksum="b75003ca32af181cf724b9b42a3a431d"
+   last-author="jhollander"
+   kind="file"/>
+<entry
+   committed-rev="214"
+   name="004_add_query_caching.rb"
+   text-time="2007-04-08T03:00:34.000000Z"
+   committed-date="2007-04-08T03:01:05.109375Z"
+   checksum="39d21d0935fc7c9976b9b6baca4485e8"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

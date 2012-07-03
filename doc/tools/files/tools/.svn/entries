@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="232"
+   name=""
+   committed-date="2007-05-03T02:49:26.275250Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/doc/tools/files/tools"
+   last-author="jhollander"
+   kind="dir"
+   revision="232"/>
+<entry
+   committed-rev="232"
+   name="email_processor_rb.html"
+   text-time="2007-05-03T02:29:30.000000Z"
+   committed-date="2007-05-03T02:49:26.275250Z"
+   checksum="d87a2bbac49c430bd7540be703341921"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

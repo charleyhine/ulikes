@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="184"
+   name=""
+   committed-date="2007-03-30T05:16:17.325625Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/config"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   prop-time="2006-10-27T02:47:39.000000Z"
+   revision="231"/>
+<entry
+   committed-rev="23"
+   name="lighttpd.conf"
+   text-time="2006-10-27T02:43:52.000000Z"
+   committed-date="2006-10-27T02:42:27.343750Z"
+   checksum="16f3884fa30209d319eb846f7058ccca"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+<entry
+   committed-rev="184"
+   name="routes.rb"
+   text-time="2007-03-30T05:15:50.000000Z"
+   committed-date="2007-03-30T05:16:17.325625Z"
+   checksum="9025aeb594010f416fc911c8fc776363"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2006-10-27T02:43:52.000000Z"/>
+<entry
+   committed-rev="172"
+   name="mongrel.yml"
+   text-time="2007-03-27T02:59:44.000000Z"
+   committed-date="2007-03-26T03:29:07.516375Z"
+   checksum="9f1429d9b91b579187764c6708895e1f"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-27T02:59:44.000000Z"/>
+<entry
+   committed-rev="171"
+   name="mongrel_cluster.yml"
+   text-time="2007-03-27T02:59:44.000000Z"
+   committed-date="2007-03-26T03:21:40.063250Z"
+   checksum="dd46e19469acde911b5277e21517c3a2"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-27T02:59:44.000000Z"/>
+<entry
+   committed-rev="163"
+   name="boot.rb"
+   text-time="2007-03-27T03:27:23.000000Z"
+   committed-date="2007-03-23T02:37:55.438250Z"
+   checksum="1db0a3f227c0d1ed877b97d9b7dca2c0"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-23T01:56:24.000000Z"/>
+<entry
+   committed-rev="167"
+   name="environment.rb"
+   text-time="2007-03-27T02:59:45.000000Z"
+   committed-date="2007-03-26T01:55:57.625750Z"
+   checksum="ef4500081d95a139d33c5adc093a18d5"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-03-27T02:59:44.000000Z"/>
+<entry
+   name="environments"
+   kind="dir"/>
+<entry
+   committed-rev="27"
+   name="database.example"
+   text-time="2006-10-27T02:46:51.000000Z"
+   committed-date="2006-10-27T02:47:03.437500Z"
+   checksum="05bf3d52bd8e7b05ffbee9bc92499c61"
+   last-author="jhollander"
+   kind="file"/>
+</wc-entries>

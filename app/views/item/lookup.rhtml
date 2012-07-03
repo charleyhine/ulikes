@@ -1,0 +1,36 @@
+		<h3 class="h3PageTitle"><span class="spanFaded">Results for:</span> <%= @query_text %> <span class="spanFaded">in</span> <%= @location %> </h3>
+				<span id="searchMessages" style="color: green"><%= flash[:search_message] %></span>
+				<div class="divResultContainer">
+				<% for i in 0..@results.size - 1 %>
+					<%= render :partial => "lookup_item", :locals => { :item => @results[i], :count => i } %>
+        <% end %>
+        <% if !@result_pages.nil? %>
+          <%= link_to('&laquo; Previous', params.merge({:page => @result_pages.current.previous}))  + " | " if @result_pages.current.previous %>
+          <%= pagination_links(@result_pages, :params => params, :window_size => 4) %>
+          <%= " | " + link_to('Next &raquo;', params.merge({:page => @result_pages.current.next})) if @result_pages.current.next %>
+        <% end %>
+        </div>
+      
+        <div id="mapContainer"></div>
+
+<script type="text/javascript" src="http://maps.yahooapis.com/v3.04/fl/javascript/apiloader.js?appid=applesauce"></script>
+<script type="text/javascript">
+		// Create and display Map object at the address and with zoom level 3 
+    // Include your application ID.
+    <% if @results.size > 0 %>
+      var map = new Map("mapContainer", "YahooDemo", 
+          new LatLon(<%= @results[0].latitude %>,<%= @results[0].longitude %>), 5); 
+      
+      // Make the map draggable 
+      map.addTool( new PanTool(), true );
+      map.addWidget( new NavigatorWidget() );
+      
+      <% for i in 0..@results.size - 1 %>
+        marker<%= i %> = new CustomPOIMarker( "<%= (i+1).to_s %> <%= @results[i].name %>", "<%= @results[i].street %>",
+          "<%= @results[i].city.name %>", "0xFF0000", "0xFFFFFF"); 
+          map.addMarkerByLatLon( marker<%= i %>, new LatLon(<%= @results[i].latitude %>, <%= @results[i].longitude %>));
+          <% i = i + 1 %>
+      <% end %>
+    <% end %>
+</script> 
+

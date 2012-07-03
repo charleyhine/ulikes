@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="224"
+   name=""
+   committed-date="2007-04-29T20:39:26.577875Z"
+   url="svn://applesauce.scrapping.cc/ulikes/trunk/db"
+   last-author="jhollander"
+   kind="dir"
+   uuid="cac2d6c9-a2d2-684f-8a16-64540334b5f8"
+   revision="231"/>
+<entry
+   committed-rev="224"
+   name="schema.rb"
+   text-time="2007-04-29T20:19:50.000000Z"
+   committed-date="2007-04-29T20:39:26.577875Z"
+   checksum="dd1f0306abbfb8d9b5fad60f90846e9e"
+   last-author="jhollander"
+   kind="file"
+   prop-time="2007-04-21T01:55:30.000000Z"/>
+<entry
+   name="migrate"
+   kind="dir"/>
+</wc-entries>

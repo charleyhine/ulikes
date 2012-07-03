@@ -1,0 +1,463 @@
+a {
+	border-bottom: 1px solid blue;
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+
+body#bodyNormal {
+	background-image: url("../images/bgFade.gif");
+	background-position: 0 -20px;
+	background-repeat: repeat-x;
+	color: #333333;       
+	font-family: "arial","helvetica",sans-serif;
+	font-size: 62.5%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body#bodyAlternate {
+	color: #333333;       
+	font-family: "arial","helvetica",sans-serif;
+	font-size: 62.5%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+
+div#divContainer {
+	font-size: 1.2em;
+	/* main container for content */
+	margin: 0 auto;
+	width: 996px;
+}
+
+
+div#divTitle {
+	/* titlebar */
+	position: relative;
+	float: left;
+	margin: 50px 0 8px 0;
+}
+
+div#divTitleAlternate { 
+	position: relative;
+	float: left;
+	margin: 3px 0 0 0;
+	width: 996px;
+}
+ 
+
+div#divTitle h1,
+div#divTitle h1	a,
+div#divTitleAlternate h1,
+div#divTitleAlternate h1 a {
+	/* logo */ 
+	background-repeat: no-repeat;
+	float: left; 
+	display: block;
+	overflow: hidden;
+	text-indent: -2000px;
+} 
+
+div#divTitle h1,
+div#divTitle h1	a {
+	/* logo */ 
+	background-image: url("../images/ulikes_logo.gif");
+	height: 72px;
+	width: 250px;
+}
+ 
+
+div#divTitleAlternate h1,
+div#divTitleAlternate h1 a {
+	/* logo */ 
+	background-image: url("../images/ulikes_logo_small.gif");
+	height: 30px;
+	width: 119px;
+}
+
+
+div#divTitle h2,
+div#divTitleAlternate h2 {
+	background-position: right top;
+	background-repeat: no-repeat;
+	display: block;
+	overflow: hidden;
+	text-indent: -2000px;
+} 
+
+
+div#divTitle h2 {
+	background-image: url("../images/mobile_voting.gif");
+	height: 72px;
+	width: 734px;
+}
+
+ 
+div#divTitleAlternate h2 {
+	background-image: url("../images/mobile_voting_small.gif");
+	background-position: right 2px;
+	height: 37px;
+	width: 865px;
+}
+
+
+div#divSearch {
+	float: left;
+	height: 35px;
+	margin: 3px 0 6px 0;
+	width: 652px;
+	
+}
+
+div#divAbout { 
+	background-color: #cccccc;
+	background-image: url("../images/bgSplash.gif");
+	float: left;
+	margin-right: 12px;
+	position: relative;
+	width: 652px;
+	height: 400px;
+}
+
+	div#divVote,
+	div#divAnywhere,
+	div#divFind {
+		width: 652px;
+		color: #ffffff;
+		background-image: url("../images/bgSplashDark.gif");
+		position: absolute;
+	}
+	
+	div#divVote h1,
+	div#divAnywhere h1,
+	div#divFind h1 {
+		margin: .3em 12px;
+	}
+	
+	div#divVote {
+		background-position: 0 -40px;
+		top: 40px;
+	}
+	
+		div#divVote h1 {
+			font-size: 2.4em;
+		}
+	
+	div#divAnywhere {
+		background-position: 0 -150px;
+		top: 150px;
+	}
+	
+		div#divAnywhere h1 {
+			font-size: 3.6em;
+			text-align: right;
+		}
+	
+	div#divFind {
+		background-position: 0 -330px;
+		top: 330px;
+	}
+	
+		div#divFind h1 {
+			font-size: 2em;
+			text-align: center;
+		}
+	
+    
+div#divJoin {
+	background-color: #eeeeee;
+	float: left;
+	width: 319px;
+	height: 399px;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;  
+} 
+
+	div#divJoin em {
+		font-style: normal;
+		font-size: 1.25em;
+	}
+	
+	div#divJoin form {
+		margin: 12px 0;
+	}
+
+div#divFold {
+	width: 100%;
+	float: left;
+	margin: 50px 0 0 0;
+} 
+
+div#divFooter {
+	color: #999999;
+	float: left;
+	font-size: 1em;
+	width: 100%;
+	padding: 0 0 10em 0;
+	margin: 12px 0 0 0;
+	text-align: center;
+}
+
+div.divTopMargin {
+	float: left;
+	margin: 50px 0 0 0;
+}
+
+
+
+div.divColumnDummy {
+	float: left;
+	width: 320px;
+	margin-right: 12px;	 
+}
+
+div.divColumnAlternate {
+	background-color: #eeeeee;
+	float: left;
+	width: 319px;
+	height: 399px;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+} 
+   
+
+div.divColumn {
+	background-color: #eeeeee;
+	float: left;
+	width: 319px;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+div.divColumn2 {
+	background-color: #eeeeee;
+	float: left;
+	margin-right: 12px;
+	width: 651px;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	overflow: auto;
+}
+
+div.divColumn3 {
+	background-color: #eeeeee;
+	float: left;
+	margin-right: 12px;
+	width: 983px;
+	height: 399px;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;	
+}
+
+div.divDetail {
+	font-size: 1em;
+	color: #666666;
+}
+
+	div.divDetail table {
+		width: 80%;
+	}
+
+div.divPadding {
+	margin: 6px 12px 12px 12px;
+}
+
+div.divResult {
+	background-color: #f4f4f4;
+	border: 1px solid #ffffff;
+}
+
+
+form {  
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+
+h2#h2RecentlyPopular,
+h2#h2RecentVotes,
+h2#h2TopTen {
+	position: relative;
+	top: -41px;
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 51px;
+	margin-bottom: -50px;
+	padding: 19px 0 0 6px;
+}   
+
+h2#h2RecentlyPopular { 
+	background-image: url("../images/clock.gif");
+}
+
+h2#h2RecentVotes {
+	background-image: url("../images/check.gif");
+}
+
+h2.h2Name {
+	font-size: 15px;
+}
+
+h2#h2TopTen {
+	background-image: url("../images/ten.gif");
+}   
+
+h2.h2Steps {
+	padding-top: 18px;
+}
+
+h3.h3PageTitle {
+	margin: .5em 0;
+}
+
+.Keyword {
+	font-size: 15px;
+	margin: -19px 0 0 0;
+	float: right;
+}
+
+h4.h4Address {
+	
+}
+
+
+
+
+input#inputTextSearch1,
+input#inputTextSearch2,
+input#inputTextSplash1,
+input#inputTextSplash2 {
+	color: #ff9999;
+}
+
+input#inputTextSearch1,
+input#inputTextSearch2 {
+	font-size: 1.36em;
+	width: 260px;
+}
+
+input#inputTextSplash1,
+input#inputTextSplash2 {
+	width: 120px;
+}
+
+input#inputSubmitSearch {
+	font-size: 1.36em;
+	width: 114px;
+}
+
+input#inputImageSearch {
+	margin: 0 0 -6px 0;
+	padding: 0;
+	
+}
+
+
+
+span.spanFaded {
+	color: #999999;
+}
+
+span.spanKeyword {
+	color: #cc6633;
+}
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin: 3px 0;
+	padding: 0;
+}
+
+ul.ulResultTasks {
+	float: right;
+	height: 1.6em;
+	margin: -10px 0 0 0;
+}
+
+ul.ulResultTasks li {
+	float: left;
+	margin: 0 0 0 12px;
+}
+
+
+ul.ulSteps li {
+	font-size: 1.2em;
+	padding: 3px 0;
+}
+
+
+ul#ulNavigation {
+	position: absolute;
+	top: 0;
+	right: 12px;
+	display: block;
+	list-style: none;
+	margin: 6px 0 0 0;
+	padding: 0;
+} 
+
+ul#ulNavigation li {
+	float: left;
+	font-size: 1.18em;
+	margin: 0 0 0 12px;
+}
+
+span.spanVoteCount {
+	margin-left: 5px;
+	color: #cc6633;
+}
+
+.hidden {
+	display: none;
+}
+	
+h2.h2Steps {
+	padding-top: 5px;
+}
+
+div#mapContainer {
+  padding-top: 15px;
+  height: 300px;
+}
+	
+
+
